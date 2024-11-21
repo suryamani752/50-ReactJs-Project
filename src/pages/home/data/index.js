@@ -34,4 +34,34 @@ export const ProjectData = [
     name: "QR-Code-Generator",
     path: "/qr-code-generator",
   },
+  {
+    id: 8,
+    name: "Light-Dark Mode",
+    path: "/light-dark-mode",
+  },
+  {
+    id: 9,
+    name: "Scroll Indicator",
+    path: "/scroll-indicator",
+  },
+  {
+    id: 10,
+    name: "Custom Tabs",
+    path: "/custom-tabs",
+  },
+  {
+    id: 11,
+    name: "Github Profile Finder",
+    path: "/github-profile-finder",
+  },
+  {
+    id: 12,
+    name: "AutoComplete",
+    path: "/auto-complete",
+  },
+  {
+    id: 13,
+    name: "Custom Model Popup",
+    path: "/custom-model-popup",
+  }
 ];

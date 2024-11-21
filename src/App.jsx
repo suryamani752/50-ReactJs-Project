@@ -10,6 +10,12 @@ import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/menus";
 import QrCodeGenerator from "./components/qr-code-generator";
+import LightDarkMode from "./components/light-dark-mode";
+import ScrollIndicator from "./components/scroll-indicator";
+import CustomTabs from "./components/custom-tabs";
+import GithubProfileFinder from "./components/github-profile-finder";
+import AutoComplete from "./components/autocomplete";
+import CustomModelPopup from "./components/custom-model-popup";
 
 function CustomRoutes() {
   const element = useRoutes([
@@ -44,6 +50,32 @@ function CustomRoutes() {
     {
       path: "/qr-code-generator",
       element: <QrCodeGenerator />,
+    },
+    {
+      path: "/light-dark-mode",
+      element: <LightDarkMode />,
+    },
+    {
+      path: "/scroll-indicator",
+      element: (
+        <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      ),
+    },
+    {
+      path: "/custom-tabs",
+      element: <CustomTabs />,
+    },
+    {
+      path: "/github-profile-finder",
+      element: <GithubProfileFinder />,
+    },
+    {
+      path: "/auto-complete",
+      element: <AutoComplete />,
+    },
+    {
+      path: "/custom-model-popup",
+      element: <CustomModelPopup />,
     },
   ]);
   return element;
